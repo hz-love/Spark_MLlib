@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spark_Millib" />
+        <module name="Spark_MLlib" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spark_Millib" target="1.8" />
+      <module name="Spark_MLlib" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
